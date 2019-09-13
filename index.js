@@ -1,10 +1,3 @@
-/*I want to note that, I am having an issue with the value returning unidentified when the click is executed, the element
-post but there is no value.
-
-After I checked it against the code following in the next section, we seem to be having the same issue? 
-Help please! *\
-
-
 $(function(){
   $('#js-shopping-list-form').submit(function(event) {
     event.preventDefault();
